@@ -1,0 +1,33 @@
+id: 2
+#颜色
+Color: "f"
+#菜单的名称
+MenuName: "玻璃"
+#图标
+ItemIcon: "minecraft:glass"
+
+#是否有出售
+sellMode: True
+
+Items: [
+  {
+    name: 玻璃,
+    itemID: "minecraft:glass",
+    amount: 64,
+    price: 150
+  },
+  {
+    name: "玻璃[彩色]",
+    itemID: "minecraft:stained_glass",
+    amount: 64,
+    price: 160,
+    type: "duplicate",
+    endSpecialId: 15
+  },
+  {
+    name: 魔力玻璃,
+    itemID: "botania:managlass",
+    amount: 64,
+    price: 200
+  }
+]
