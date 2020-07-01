@@ -1,3 +1,4 @@
+last_position_input = None
 while True:
   position_input = input("请输入物品在菜单位置:")
   if position_input == "" or position_input == " ": #如果未输入或者空格时，视为上一个输入数字+1

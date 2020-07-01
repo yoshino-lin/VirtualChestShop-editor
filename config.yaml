@@ -1,0 +1,41 @@
+itemName: "物品"
+#菜单文件名称
+file_name: "test.conf"
+#上一页菜单的名称 - 例如 矿物
+lastPageItemName: "矿物"
+#上一页菜单的主题颜色
+lastPageItemColor: "d"
+#上一页菜单图标物品的id - 列如 minecraft:diamond_ore
+lastPageItemType: "minecraft:diamond_ore"
+#上一页菜单的文件名称 - 例如 shop_mineral
+lastPageMenuName: "shop_mineral"
+#下一页菜单的名称 - 例如 矿物
+nextPageItemName: "玻璃板"
+#下一页菜单的主题颜色
+nextPageItemColor: "b"
+#下一页菜单图标物品的id - 列如 minecraft:diamond_ore
+nextPageItemType: "minecraft:glass_pane"
+#下一页菜单的文件名称 - 例如 shop_mineral
+nextPageMenuName: "shop_glass_pane"
+Items: [
+  {
+    name: 玻璃,
+    itemID: "minecraft:glass",
+    amount: 64,
+    price: 150
+  },
+  {
+    name: 玻璃,
+    itemID: "minecraft:stained_glass",
+    amount: 64,
+    price: 160,
+    type: "duplicate",
+    endSpecialId: 15
+  },
+  {
+    name: 魔力玻璃,
+    itemID: "minecraft:glass",
+    amount: 64,
+    price: 200
+  }
+]
