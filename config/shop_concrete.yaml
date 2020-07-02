@@ -1,0 +1,21 @@
+id: 5
+#颜色
+Color: "e"
+#菜单的名称
+MenuName: "混凝土"
+#图标
+ItemIcon: "minecraft:concrete"
+
+#是否有出售
+sellMode: True
+
+Items: [
+  {
+    name: "混凝土",
+    itemID: "minecraft:concrete",
+    amount: 64,
+    price: 300,
+    type: "duplicate",
+    endSpecialId: 15
+  }
+]
