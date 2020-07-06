@@ -1,11 +1,8 @@
 id: 6
-#颜色
-Color: "c"
 #菜单的名称
 MenuName: "混凝土粉末"
 #图标
 ItemIcon: "minecraft:concrete_powder"
-
 #是否有出售
 sellMode: True
 
@@ -14,7 +11,7 @@ Items: [
     name: "混凝土粉末",
     itemID: "minecraft:concrete_powder",
     amount: 64,
-    price: 265,
+    price: 266,
     type: "duplicate",
     endSpecialId: 15
   }

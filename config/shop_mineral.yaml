@@ -1,6 +1,4 @@
 id: 0
-#颜色
-Color: "d"
 #菜单的名称
 MenuName: "矿物"
 #图标
@@ -13,14 +11,14 @@ Items: [
     name: 煤炭,
     itemID: "minecraft:coal",
     amount: 64,
-    price: 160
+    price: 130
   },
   {
     name: 木炭,
     itemID: "minecraft:coal",
     specialId: 1,
     amount: 64,
-    price: 160
+    price: 130
   },
   {
     name: 铁锭,

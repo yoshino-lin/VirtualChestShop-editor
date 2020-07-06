@@ -1,11 +1,8 @@
 id: 7
-#颜色
-Color: "e"
 #菜单的名称
 MenuName: "混凝土"
 #图标
 ItemIcon: "minecraft:concrete"
-
 #是否有出售
 sellMode: True
 

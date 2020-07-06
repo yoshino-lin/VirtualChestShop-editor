@@ -1,37 +1,106 @@
-id: 8
-#颜色
-Color: "a"
+id: 9
 #菜单的名称
-MenuName: "陶瓦"
+MenuName: "带釉陶瓦"
 #图标
-ItemIcon: "minecraft:stained_hardened_clay"
-
+ItemIcon: "minecraft:white_glazed_terracotta"
 #是否有出售
 sellMode: True
 
 Items: [
   {
-    name: "陶瓦",
-    itemID: "minecraft:stained_hardened_clay",
+    name: "白色带釉陶瓦",
+    itemID: "minecraft:white_glazed_terracotta",
     amount: 64,
-    price: 250,
-    type: "duplicate",
-    endSpecialId: 15
+    price: 300,
+  },
+  {
+    name: "橙色带釉陶瓦",
+    itemID: "minecraft:orange_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "品红色带釉陶瓦",
+    itemID: "minecraft:magenta_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "淡蓝色带釉陶瓦",
+    itemID: "minecraft:light_blue_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "黄色带釉陶瓦",
+    itemID: "minecraft:yellow_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "黄绿色带釉陶瓦",
+    itemID: "minecraft:lime_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "粉红色带釉陶瓦",
+    itemID: "minecraft:pink_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "灰色带釉陶瓦",
+    itemID: "minecraft:gray_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "淡灰色带釉陶瓦",
+    itemID: "minecraft:silver_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "青色带釉陶瓦",
+    itemID: "minecraft:cyan_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "紫色带釉陶瓦",
+    itemID: "minecraft:purple_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "蓝色带釉陶瓦",
+    itemID: "minecraft:blue_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "棕色带釉陶瓦",
+    itemID: "minecraft:brown_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "绿色带釉陶瓦",
+    itemID: "minecraft:green_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "红色带釉陶瓦",
+    itemID: "minecraft:red_glazed_terracotta",
+    amount: 64,
+    price: 300,
+  },
+  {
+    name: "黑色带釉陶瓦",
+    itemID: "minecraft:black_glazed_terracotta",
+    amount: 64,
+    price: 300,
   }
-  <minecraft:white_glazed_terracotta>
-<minecraft:orange_glazed_terracotta>
-<minecraft:magenta_glazed_terracotta>
-<minecraft:light_blue_glazed_terracotta>
-<minecraft:yellow_glazed_terracotta>
-<minecraft:lime_glazed_terracotta>
-<minecraft:pink_glazed_terracotta>
-<minecraft:gray_glazed_terracotta>
-<minecraft:silver_glazed_terracotta>
-<minecraft:cyan_glazed_terracotta>
-<minecraft:purple_glazed_terracotta>
-<minecraft:blue_glazed_terracotta>
-<minecraft:brown_glazed_terracotta>
-<minecraft:green_glazed_terracotta>
-<minecraft:red_glazed_terracotta>
-<minecraft:black_glazed_terracotta>
 ]
