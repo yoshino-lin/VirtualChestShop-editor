@@ -1,18 +1,11 @@
+ItemIcon: minecraft:stained_hardened_clay
+Items:
+- amount: 64
+  endSpecialId: 15
+  itemID: minecraft:stained_hardened_clay
+  name: 陶瓦
+  price: 250
+  type: duplicate
+MenuName: 陶瓦
 id: 8
-#菜单的名称
-MenuName: "陶瓦"
-#图标
-ItemIcon: "minecraft:stained_hardened_clay"
-#是否有出售
-sellMode: True
-
-Items: [
-  {
-    name: "陶瓦",
-    itemID: "minecraft:stained_hardened_clay",
-    amount: 64,
-    price: 250,
-    type: "duplicate",
-    endSpecialId: 15
-  }
-]
+sellMode: true

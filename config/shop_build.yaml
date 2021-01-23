@@ -1,123 +1,82 @@
+ItemIcon: minecraft:grass
+Items:
+- amount: 64
+  itemID: minecraft:stone
+  name: 石头
+  price: 50
+- amount: 64
+  itemID: minecraft:dirt
+  name: 泥土
+  price: 30
+- amount: 64
+  itemID: minecraft:cobblestone
+  name: 圆石
+  price: 40
+- amount: 64
+  itemID: minecraft:sand
+  name: 沙子
+  price: 50
+- amount: 64
+  itemID: minecraft:sandstone
+  name: 砂岩
+  price: 90
+- amount: 64
+  itemID: minecraft:sandstone
+  name: 錾制砂岩
+  price: 90
+  specialId: 1
+- amount: 64
+  itemID: minecraft:sandstone
+  name: 平滑砂岩
+  price: 100
+  specialId: 2
+- amount: 64
+  itemID: minecraft:mossy_cobblestone
+  name: 苔石
+  price: 100
+- amount: 64
+  itemID: minecraft:stonebrick
+  name: 石砖
+  price: 40
+- amount: 64
+  itemID: minecraft:stonebrick
+  name: 苔石砖
+  price: 44
+  specialId: 1
+- amount: 64
+  itemID: minecraft:stonebrick
+  name: 裂石砖
+  price: 50
+  specialId: 2
+- amount: 64
+  itemID: minecraft:stonebrick
+  name: 錾制石砖
+  price: 40
+  specialId: 3
+- amount: 64
+  itemID: minecraft:gravel
+  name: 沙砾
+  price: 30
+- amount: 64
+  itemID: minecraft:netherrack
+  name: 地狱岩
+  price: 50
+- amount: 64
+  itemID: minecraft:soul_sand
+  name: 灵魂沙
+  price: 60
+- amount: 64
+  itemID: minecraft:nether_brick
+  name: 地狱砖块
+  price: 74
+- amount: 64
+  itemID: minecraft:end_stone
+  name: 末地石
+  price: 64
+- amount: 1
+  itemID: minecraft:slime
+  name: 粘黏块
+  price: 150
+MenuName: 建筑材料
 id: 1
-#菜单的名称
-MenuName: "建筑材料"
-#图标
-ItemIcon: "minecraft:grass"
-#是否有出售
-sellMode: True
-
-Items: [
-  {
-    name: 石头,
-    itemID: "minecraft:stone",
-    amount: 64,
-    price: 50
-  },
-  {
-    name: 泥土,
-    itemID: "minecraft:dirt",
-    amount: 64,
-    price: 30
-  },
-  {
-    name: 圆石,
-    itemID: "minecraft:cobblestone",
-    amount: 64,
-    price: 40
-  },
-  {
-    name: 沙子,
-    itemID: "minecraft:sand",
-    amount: 64,
-    price: 50
-  },
-  {
-    name: 砂岩,
-    itemID: "minecraft:sandstone",
-    amount: 64,
-    price: 90
-  },
-  {
-    name: 錾制砂岩,
-    itemID: "minecraft:sandstone",
-    specialId: 1,
-    amount: 64,
-    price: 90
-  },
-  {
-    name: 平滑砂岩,
-    itemID: "minecraft:sandstone",
-    specialId: 2,
-    amount: 64,
-    price: 100
-  },
-  {
-    name: 苔石,
-    itemID: "minecraft:mossy_cobblestone",
-    amount: 64,
-    price: 100
-  },
-  {
-    name: 石砖,
-    itemID: "minecraft:stonebrick",
-    amount: 64,
-    price: 40
-  },
-  {
-    name: 苔石砖,
-    itemID: "minecraft:stonebrick",
-    specialId: 1,
-    amount: 64,
-    price: 44
-  },
-  {
-    name: 裂石砖,
-    itemID: "minecraft:stonebrick",
-    specialId: 2,
-    amount: 64,
-    price: 50
-  },
-  {
-    name: 錾制石砖,
-    itemID: "minecraft:stonebrick",
-    specialId: 3,
-    amount: 64,
-    price: 40
-  },
-  {
-    name: 沙砾,
-    itemID: "minecraft:gravel",
-    amount: 64,
-    price: 30
-  },
-  {
-    name: 地狱岩,
-    itemID: "minecraft:netherrack",
-    amount: 64,
-    price: 50
-  },
-  {
-    name: 灵魂沙,
-    itemID: "minecraft:soul_sand",
-    amount: 64,
-    price: 60
-  },
-  {
-    name: 地狱砖块,
-    itemID: "minecraft:nether_brick",
-    amount: 64,
-    price: 74
-  },
-  {
-    name: 末地石,
-    itemID: "minecraft:end_stone",
-    amount: 64,
-    price: 64
-  },
-  {
-    name: 粘黏块,
-    itemID: "minecraft:slime",
-    amount: 1,
-    price: 150
-  },
-]
+sellMode: true

@@ -1,18 +1,11 @@
+ItemIcon: minecraft:wool
+Items:
+- amount: 64
+  endSpecialId: 15
+  itemID: minecraft:wool
+  name: 羊毛
+  price: 250
+  type: duplicate
+MenuName: 羊毛
 id: 4
-#菜单的名称
-MenuName: "羊毛"
-#图标
-ItemIcon: "minecraft:wool"
-#是否有出售
-sellMode: True
-
-Items: [
-  {
-    name: "羊毛",
-    itemID: "minecraft:wool",
-    amount: 64,
-    price: 250,
-    type: "duplicate",
-    endSpecialId: 15
-  }
-]
+sellMode: true

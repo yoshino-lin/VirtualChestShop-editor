@@ -1,18 +1,11 @@
+ItemIcon: minecraft:concrete_powder
+Items:
+- amount: 64
+  endSpecialId: 15
+  itemID: minecraft:concrete_powder
+  name: 混凝土粉末
+  price: 266
+  type: duplicate
+MenuName: 混凝土粉末
 id: 6
-#菜单的名称
-MenuName: "混凝土粉末"
-#图标
-ItemIcon: "minecraft:concrete_powder"
-#是否有出售
-sellMode: True
-
-Items: [
-  {
-    name: "混凝土粉末",
-    itemID: "minecraft:concrete_powder",
-    amount: 64,
-    price: 266,
-    type: "duplicate",
-    endSpecialId: 15
-  }
-]
+sellMode: true

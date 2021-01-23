@@ -1,2 +1,2 @@
 menu/*
-__pycache__/*
+*.pyc

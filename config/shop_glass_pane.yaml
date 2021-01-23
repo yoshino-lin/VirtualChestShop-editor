@@ -1,30 +1,19 @@
+ItemIcon: minecraft:glass_pane
+Items:
+- amount: 64
+  itemID: minecraft:glass_pane
+  name: 玻璃板
+  price: 56.25
+- amount: 64
+  endSpecialId: 15
+  itemID: minecraft:stained_glass_pane
+  name: 玻璃板[彩色]
+  price: 60
+  type: duplicate
+- amount: 64
+  itemID: botania:managlasspane
+  name: 魔力玻璃板
+  price: 75
+MenuName: 玻璃版
 id: 3
-#菜单的名称
-MenuName: "玻璃版"
-#图标
-ItemIcon: "minecraft:glass_pane"
-#是否有出售
-sellMode: True
-
-Items: [
-  {
-    name: 玻璃板,
-    itemID: "minecraft:glass_pane",
-    amount: 64,
-    price: 56.25
-  },
-  {
-    name: "玻璃板[彩色]",
-    itemID: "minecraft:stained_glass_pane",
-    amount: 64,
-    price: 60,
-    type: "duplicate",
-    endSpecialId: 15
-  },
-  {
-    name: 魔力玻璃板,
-    itemID: "botania:managlasspane",
-    amount: 64,
-    price: 75
-  }
-]
+sellMode: true

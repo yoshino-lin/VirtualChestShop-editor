@@ -1,120 +1,79 @@
+ItemIcon: minecraft:emerald
+Items:
+- amount: 64
+  itemID: minecraft:coal
+  name: 煤炭
+  price: 130
+- amount: 64
+  itemID: minecraft:coal
+  name: 木炭
+  price: 130
+  specialId: 1
+- amount: 1
+  itemID: minecraft:iron_ingot
+  name: 铁锭
+  price: 100
+- amount: 1
+  itemID: minecraft:gold_ingot
+  name: 金锭
+  price: 750
+- amount: 1
+  itemID: minecraft:diamond
+  name: 钻石
+  price: 1000
+- amount: 1
+  itemID: minecraft:emerald
+  name: 绿宝石
+  price: 800
+- amount: 64
+  itemID: minecraft:glowstone_dust
+  name: 萤石粉
+  price: 640
+- amount: 64
+  itemID: minecraft:redstone
+  name: 红石
+  price: 320
+- amount: 64
+  itemID: minecraft:dye
+  name: 青金石
+  price: 320
+  specialId: 4
+- amount: 1
+  itemID: minecraft:quartz_block
+  name: 石英块
+  price: 50
+- amount: 1
+  itemID: minecraft:coal_block
+  name: 煤炭块
+  price: 22.5
+- amount: 1
+  itemID: minecraft:iron_block
+  name: 铁块
+  price: 900
+- amount: 1
+  itemID: minecraft:gold_block
+  name: 金块
+  price: 6750
+- amount: 1
+  itemID: minecraft:diamond_block
+  name: 钻石块
+  price: 9000
+- amount: 1
+  itemID: minecraft:emerald_block
+  name: 绿宝石块
+  price: 9000
+- amount: 64
+  itemID: minecraft:glowstone
+  name: 萤石
+  price: 2560
+- amount: 64
+  itemID: minecraft:redstone_block
+  name: 红石块
+  price: 2880
+- amount: 64
+  itemID: minecraft:lapis_block
+  name: 青金石块
+  price: 2880
+MenuName: 矿物
 id: 0
-#菜单的名称
-MenuName: "矿物"
-#图标
-ItemIcon: "minecraft:emerald"
-#是否有出售
-sellMode: True
-
-Items: [
-  {
-    name: 煤炭,
-    itemID: "minecraft:coal",
-    amount: 64,
-    price: 130
-  },
-  {
-    name: 木炭,
-    itemID: "minecraft:coal",
-    specialId: 1,
-    amount: 64,
-    price: 130
-  },
-  {
-    name: 铁锭,
-    itemID: "minecraft:iron_ingot",
-    amount: 1,
-    price: 100
-  },
-  {
-    name: 金锭,
-    itemID: "minecraft:gold_ingot",
-    amount: 1,
-    price: 750
-  },
-  {
-    name: 钻石,
-    itemID: "minecraft:diamond",
-    amount: 1,
-    price: 1000
-  },
-  {
-    name: 绿宝石,
-    itemID: "minecraft:emerald",
-    amount: 1,
-    price: 1000
-  },
-  {
-    name: 萤石粉,
-    itemID: "minecraft:glowstone_dust",
-    amount: 64,
-    price: 640
-  },
-  {
-    name: 红石,
-    itemID: "minecraft:redstone",
-    amount: 64,
-    price: 320
-  },
-  {
-    name: 青金石,
-    itemID: "minecraft:dye",
-    specialId: 4,
-    amount: 64,
-    price: 320
-  },
-  {
-    name: 石英块,
-    itemID: "minecraft:quartz_block",
-    amount: 1,
-    price: 50
-  },
-  {
-    name: 煤炭块,
-    itemID: "minecraft:coal_block",
-    amount: 1,
-    price: 22.5
-  },
-  {
-    name: 铁块,
-    itemID: "minecraft:iron_block",
-    amount: 1,
-    price: 900
-  },
-  {
-    name: 金块,
-    itemID: "minecraft:gold_block",
-    amount: 1,
-    price: 6750
-  },
-  {
-    name: 钻石块,
-    itemID: "minecraft:diamond_block",
-    amount: 1,
-    price: 9000
-  },
-  {
-    name: 绿宝石块,
-    itemID: "minecraft:emerald_block",
-    amount: 1,
-    price: 9000
-  },
-  {
-    name: 萤石,
-    itemID: "minecraft:glowstone",
-    amount: 64,
-    price: 2560
-  },
-  {
-    name: 红石块,
-    itemID: "minecraft:redstone_block",
-    amount: 64,
-    price: 2880
-  },
-  {
-    name: 青金石块,
-    itemID: "minecraft:lapis_block",
-    amount: 64,
-    price: 2880
-  },
-]
+sellMode: true

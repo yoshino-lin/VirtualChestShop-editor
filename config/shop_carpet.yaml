@@ -1,18 +1,11 @@
+ItemIcon: minecraft:carpet
+Items:
+- amount: 64
+  endSpecialId: 15
+  itemID: minecraft:carpet
+  name: 羊毛地毯
+  price: 250
+  type: duplicate
+MenuName: 羊毛地毯
 id: 5
-#菜单的名称
-MenuName: "羊毛地毯"
-#图标
-ItemIcon: "minecraft:carpet"
-#是否有出售
-sellMode: True
-
-Items: [
-  {
-    name: "羊毛地毯",
-    itemID: "minecraft:carpet",
-    amount: 64,
-    price: 250,
-    type: "duplicate",
-    endSpecialId: 15
-  }
-]
+sellMode: true
