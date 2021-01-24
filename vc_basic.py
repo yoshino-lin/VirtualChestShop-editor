@@ -1,3 +1,76 @@
+from glob import glob
+import yaml
+
+#创建一个slot
+def createSlot(Count:int, DisplayName:str, ItemLore:list, ItemType:str,
+    UnsafeDamage:int = 0, Command:str = None, KeepInventoryOpen:bool = False, Requirements:str = None) -> dict:
+    dictReturn = {
+        "Item":{
+            "Count": Count,
+            "DisplayName": DisplayName,
+            "ItemLore": ItemLore,
+            "ItemType": ItemType,
+            "UnsafeDamage":UnsafeDamage,
+        },
+        "PrimaryAction": {}
+    }
+    if Command != None: dictReturn["PrimaryAction"]["Command"] = Command
+    if Command != None and "vc o" in Command: KeepInventoryOpen = True
+    if KeepInventoryOpen: dictReturn["PrimaryAction"]["KeepInventoryOpen"] = True
+    #如果PrimaryAction为空，则删除
+    if len(dictReturn["PrimaryAction"]) == 0:del dictReturn["PrimaryAction"]
+    if Requirements != None: dictReturn["Requirements"] = Requirements
+    return dictReturn
+
+#购买的slot
+def writeBuySlot(name:str,itemID:str,amount:int,price:int,specialId:int) -> list:
+    return [
+        createSlot(
+            amount,
+            "&a购买：{}".format(name),
+            ["&a价格：${}".format(price)],
+            itemID,
+            specialId,
+            "cost: {0}; console: give %player_name% {1} {2}".format(price,itemID,amount) if specialId == 0 else "cost: {0}; console: give %player_name% {1} {2} {3}".format(price,itemID,amount,specialId),
+            True,
+            "%economy_balance% >= {}".format(price)
+        ),
+        createSlot(
+            amount,
+            "&a购买：{}".format(name),
+            ["&a价格：${}".format(price),"&c你没有足够的金币！"],
+            itemID,
+            specialId
+        )
+    ]
+
+#出售的slot
+def writeSellSlot(name:str,itemID:str,amount:int,price:int,specialId:int) -> dict:
+    slotDict = createSlot(
+        amount,
+        "&c出售：{}".format(name),
+        ["&c价格：${}".format(price)],
+        itemID,
+        specialId,
+        "cost-item: {0}; cost: -{1}".format(amount,price),
+        True
+        )
+    slotDict["PrimaryAction"]["HandheldItem"] = {
+        "SearchInventory": True,
+        "ItemType": itemID,
+        "UnsafeDamage": specialId,
+        "Count": amount
+    }
+    return slotDict
+
+#整理yaml
+def yamlOrganize(saveAsUnicode=True):
+    for path in glob("config/*.yaml"):
+        with open(path, "r", encoding='utf-8') as f:
+            data = yaml.load(f.read(),Loader=yaml.FullLoader)
+        with open(path, "w", encoding='utf-8') as f:
+            yaml.dump(data, f, allow_unicode=saveAsUnicode)
+
 #按照times给string加缩进（空格）
 def _addIndent(str_input:str,times:int,tab_space:int=2):
     for i in range(times*tab_space):
